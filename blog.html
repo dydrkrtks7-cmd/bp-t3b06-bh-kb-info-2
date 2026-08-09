@@ -1,140 +1,138 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="brutalist-avantgarde">
-    <meta name="bpaas-design-theme" content="kr-acid-yellow">
-    <title>방화 노래방 정보 – 형아 블로그</title>
-    <meta name="description" content="형아가 직접 방화에서 돌아다니며 확인한 노래방 꿀팁 대방출. 코인노래방부터 가성비 최고인 곳까지 진짜 후기만 모았다.">
-    <meta name="keywords" content="방화 노래방 정보, 방화 노래방 블로그, 방화 노래방 추천, 방화 코인노래방, 방화 가성비 노래방, 방화 노래방 후기, 방화 혼자 노래방">
-    <link rel="canonical" href="https://banghwa-song-tip.mapo-room-guide.xyz/blog.html">
-    <meta property="og:title" content="방화 노래방 정보 – 형아 블로그">
-    <meta property="og:description" content="형아가 직접 방화에서 돌아다니며 확인한 노래방 꿀팁 대방출. 코인노래방부터 가성비 최고인 곳까지 진짜 후기만 모았다.">
-    <meta property="og:type" content="article">
-    <style>
-        /* ===== RESET & BASE ===== */
-        *,*::before,*::after{ margin:0; padding:0; box-sizing:border-box; }
-        html{ font-size:16px; scroll-behavior:smooth; }
-        body{ font-family:'Courier New',Courier,monospace; background:#1a1a1a; color:#e0e0e0; line-height:1.6; }
-        img{ max-width:100%; height:auto; display:block; }
-        a{ color:#f7d634; text-decoration:underline; text-underline-offset:3px; }
-        a:hover{ color:#fff; background:#f7d634; color:#1a1a1a; }
-        ul,ol{ padding-left:1.5rem; }
-        h1,h2,h3,h4{ font-weight:900; text-transform:uppercase; letter-spacing:-0.02em; }
-        h1{ font-size:2.25rem; }
-        h2{ font-size:1.75rem; border-left:6px solid #f7d634; padding-left:0.75rem; margin:2rem 0 1rem; }
-        h3{ font-size:1.35rem; margin:1.5rem 0 0.75rem; }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>방화 노래방 정보 – 형아 블로그</title>
+ <meta name="description" content="형아가 직접 방화에서 돌아다니며 확인한 노래방 꿀팁 대방출. 코인노래방부터 가성비 최고인 곳까지 진짜 후기만 모았다.">
+ <meta name="keywords" content="방화 노래방 정보, 방화 노래방 블로그, 방화 노래방 추천, 방화 코인노래방, 방화 가성비 노래방, 방화 노래방 후기, 방화 혼자 노래방">
+ <link rel="canonical" href="https://banghwa-song-tip.mapo-room-guide.xyz/blog.html">
+ <meta property="og:title" content="방화 노래방 정보 – 형아 블로그">
+ <meta property="og:description" content="형아가 직접 방화에서 돌아다니며 확인한 노래방 꿀팁 대방출. 코인노래방부터 가성비 최고인 곳까지 진짜 후기만 모았다.">
+ <meta property="og:type" content="article">
+ <style>
+ /* ===== RESET & BASE ===== */
+ *,*::before,*::after{ margin:0; padding:0; box-sizing:border-box; }
+ html{ font-size:16px; scroll-behavior:smooth; }
+ body{ font-family:'Courier New',Courier,monospace; background:#1a1a1a; color:#e0e0e0; line-height:1.6; }
+ img{ max-width:100%; height:auto; display:block; }
+ a{ color:#f7d634; text-decoration:underline; text-underline-offset:3px; }
+ a:hover{ color:#fff; background:#f7d634; color:#1a1a1a; }
+ ul,ol{ padding-left:1.5rem; }
+ h1,h2,h3,h4{ font-weight:900; text-transform:uppercase; letter-spacing:-0.02em; }
+ h1{ font-size:2.25rem; }
+ h2{ font-size:1.75rem; border-left:6px solid #f7d634; padding-left:0.75rem; margin:2rem 0 1rem; }
+ h3{ font-size:1.35rem; margin:1.5rem 0 0.75rem; }
 
-        /* ===== LAYOUT ===== */
-        .container{ max-width:960px; margin:0 auto; padding:1.5rem 1rem; }
-        .section-gap{ margin-bottom:3rem; }
-        .dense-gap{ margin-bottom:1.5rem; }
+ /* ===== LAYOUT ===== */
+ .container{ max-width:960px; margin:0 auto; padding:1.5rem 1rem; }
+ .section-gap{ margin-bottom:3rem; }
+ .dense-gap{ margin-bottom:1.5rem; }
 
-        /* ===== HEADER ===== */
-        header{ background:#0d0d0d; border-bottom:4px solid #f7d634; padding:0.75rem 1rem; }
-        .logo{ font-size:1.75rem; font-weight:900; text-transform:uppercase; color:#f7d634; letter-spacing:-0.03em; }
-        .logo span{ color:#e0e0e0; }
+ /* ===== HEADER ===== */
+ header{ background:#0d0d0d; border-bottom:4px solid #f7d634; padding:0.75rem 1rem; }
+ .logo{ font-size:1.75rem; font-weight:900; text-transform:uppercase; color:#f7d634; letter-spacing:-0.03em; }
+ .logo span{ color:#e0e0e0; }
 
-        /* ===== NAV ===== */
-        nav{ display:flex; flex-wrap:wrap; align-items:center; gap:1rem; margin-top:0.75rem; }
-        nav a{ font-size:0.9rem; font-weight:700; text-transform:uppercase; padding:0.25rem 0.5rem; border:2px solid transparent; }
-        nav a:hover{ border-color:#f7d634; background:#f7d634; color:#0d0d0d; text-decoration:none; }
-        .hamburger-menu{ display:none; background:none; border:2px solid #f7d634; color:#f7d634; font-size:1.5rem; padding:0.25rem 0.5rem; cursor:pointer; }
-        .tel-link{ background:#f7d634; color:#0d0d0d; padding:0.25rem 0.75rem; font-weight:700; border:2px solid #f7d634; }
-        .tel-link:hover{ background:#fff; border-color:#fff; color:#0d0d0d; }
+ /* ===== NAV ===== */
+ nav{ display:flex; flex-wrap:wrap; align-items:center; gap:1rem; margin-top:0.75rem; }
+ nav a{ font-size:0.9rem; font-weight:700; text-transform:uppercase; padding:0.25rem 0.5rem; border:2px solid transparent; }
+ nav a:hover{ border-color:#f7d634; background:#f7d634; color:#0d0d0d; text-decoration:none; }
+ .hamburger-menu{ display:none; background:none; border:2px solid #f7d634; color:#f7d634; font-size:1.5rem; padding:0.25rem 0.5rem; cursor:pointer; }
+ .tel-link{ background:#f7d634; color:#0d0d0d; padding:0.25rem 0.75rem; font-weight:700; border:2px solid #f7d634; }
+ .tel-link:hover{ background:#fff; border-color:#fff; color:#0d0d0d; }
 
-        /* ===== BLOG POST ===== */
-        .blog-post{ background:#222; padding:1.5rem; border:3px solid #333; margin-bottom:2rem; }
-        .blog-post .post-meta{ font-size:0.8rem; color:#888; margin-bottom:0.75rem; }
-        .blog-post h2{ border-left-color:#f7d634; }
-        .blog-post p{ margin-bottom:1rem; }
-        .blog-post .highlight{ background:#2a2a2a; border-left:4px solid #f7d634; padding:0.5rem 1rem; margin:1rem 0; }
+ /* ===== BLOG POST ===== */
+ .blog-post{ background:#222; padding:1.5rem; border:3px solid #333; margin-bottom:2rem; }
+ .blog-post .post-meta{ font-size:0.8rem; color:#888; margin-bottom:0.75rem; }
+ .blog-post h2{ border-left-color:#f7d634; }
+ .blog-post p{ margin-bottom:1rem; }
+ .blog-post .highlight{ background:#2a2a2a; border-left:4px solid #f7d634; padding:0.5rem 1rem; margin:1rem 0; }
 
-        /* ===== RESPONSIVE ===== */
-        @media(max-width:768px){
-            .container{ padding:1rem; }
-            h1{ font-size:1.5rem; }
-            .logo{ font-size:1.25rem; }
-            nav{ flex-direction:column; align-items:stretch; }
-            .hamburger-menu{ display:inline-block; align-self:flex-start; }
-            nav a{ display:block; text-align:center; }
-        }
-    </style>
+ /* ===== RESPONSIVE ===== */
+ @media(max-width:768px){
+ .container{ padding:1rem; }
+ h1{ font-size:1.5rem; }
+ .logo{ font-size:1.25rem; }
+ nav{ flex-direction:column; align-items:stretch; }
+ .hamburger-menu{ display:inline-block; align-self:flex-start; }
+ nav a{ display:block; text-align:center; }
+ }
+ </style>
   <meta property="og:url" content="https://banghwa-song-tip.mapo-room-guide.xyz/blog.html">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
 <header>
-    <div class="container" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;">
-        <div class="logo">방화<span>노래</span>방</div>
-        <button class="hamburger-menu" aria-label="메뉴 열기">☰</button>
-        <nav>
-            <a href="/">홈</a>
-            <a href="/info">정보</a>
-            <a href="/blog" style="background:#f7d634; color:#0d0d0d;">블로그</a>
-            <a href="/contact">연락처</a>
-            <a href="tel:01062790862" class="tel-link">📞 010-6279-0862</a>
-        </nav>
-    </div>
+ <div class="container" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center;">
+ <div class="logo">방화<span>노래</span>방</div>
+ <button class="hamburger-menu" aria-label="메뉴 열기">☰</button>
+ <nav>
+ <a href="/">홈</a>
+ <a href="/info">정보</a>
+ <a href="/blog" style="background:#f7d634; color:#0d0d0d;">블로그</a>
+ <a href="/contact">연락처</a>
+ 
+ </nav>
+ </div>
 </header>
 
 <main class="container section-gap">
-    <h1>방화 노래방 정보 – 형아 블로그</h1>
-    <p class="dense-gap" style="color:#aaa; font-size:0.9rem;">진짜 후기만 쓴다. 내 돈 내고 다녀본 곳만.</p>
+ <h1>방화 노래방 정보 – 형아 블로그</h1>
+ <p class="dense-gap" style="color:#aaa; font-size:0.9rem;">진짜 후기만 쓴다. 내 돈 내고 다녀본 곳만.</p>
 
-    <article class="blog-post">
-        <div class="post-meta">2025.08.21 | 작성자: 방화형아 | 조회: 1,247</div>
-        <h2>방화 노래방 진짜 가성비 끝판왕은 여기다</h2>
-        <p>야, 방화에서 노래방 찾고 다니는 거 힘들지? 나도 처음엔 그랬어. 네이버 평점만 보고 갔다가 "이게 왜 4점이야?" 싶은 곳도 있었고, 가격은 싼데 기계가 너무 구려서 노래 망친 적도 많았거든.</p>
-        <p>그래서 내가 직접 방화역부터 시작해서 동네 골목까지 걸어다니며 노래방을 체험해봤어. 코인노래방, 셀프노래방, 일반 노래방 가릴 거 없이 들어가 봤음. 돈도 꽤 깨졌지만 이 정보 하나면 너는 삽질 안 해도 돼.</p>
+ <article class="blog-post">
+ <div class="post-meta">2025.08.21 | 작성자: 방화형아 | 조회: 1,247</div>
+ <h2>방화 노래방 진짜 가성비 끝판왕은 여기다</h2>
+ <p>야, 방화에서 노래방 찾고 다니는 거 힘들지? 나도 처음엔 그랬어. 네이버 평점만 보고 갔다가 "이게 왜 4점이야?" 싶은 곳도 있었고, 가격은 싼데 기계가 너무 구려서 노래 망친 적도 많았거든.</p>
+ <p>그래서 내가 직접 방화역부터 시작해서 동네 골목까지 걸어다니며 노래방을 체험해봤어. 코인노래방, 셀프노래방, 일반 노래방 가릴 거 없이 들어가 봤음. 돈도 꽤 깨졌지만 이 정보 하나면 너는 삽질 안 해도 돼.</p>
 
-        <div class="highlight">
-            <strong>📍 방화 노래방 원픽: "코인노래방 24시"</strong><br>
-            위치: 방화역 1번 출구에서 도보 3분<br>
-            가격: 1곡 300원 / 30분 3,000원<br>
-            시설: JBL 스피커, 최신 금영 기기, 방음 끝내줌
-        </div>
+ <div class="highlight">
+ <strong>📍 방화 노래방 원픽: "코인노래방 24시"</strong><br>
+ 위치: 방화역 1번 출구에서 도보 3분<br>
+ 가격: 1곡 300원 / 30분 3,000원<br>
+ 시설: JBL 스피커, 최신 금영 기기, 방음 끝내줌
+ </div>
 
-        <p>여기는 진짜 가성비 최고야. 30분에 3천 원이면 거의 혼자 노래방 가는 수준인데, 기계도 새 거고 마이크도 2개라서 둘이 와도 좋고. 방음이 특히 좋아서 밤에 가도 전혀 민폐 아님. 나는 주로 새벽에 가는데 사장님도 친절하시고 청결 상태도 굿.</p>
+ <p>여기는 진짜 가성비 최고야. 30분에 3천 원이면 거의 혼자 노래방 가는 수준인데, 기계도 새 거고 마이크도 2개라서 둘이 와도 좋고. 방음이 특히 좋아서 밤에 가도 전혀 민폐 아님. 나는 주로 새벽에 가는데 사장님도 친절하시고 청결 상태도 굿.</p>
 
-        <p>다만 한 가지 단점은 자리가 많지 않아서 주말 저녁엔 웨이팅이 있을 수 있어. 나는 평일 낮이나 늦은 밤에 가는 걸 추천함. 아니면 미리 전화하고 가는 게 속 편해. 전화번호는 <a href="tel:01062790862">010-6279-0862</a>로 문의하면 돼. 사장님한테 형아가 보내서 왔다고 하면 소소한 혜택도 있을지도? ㅋㅋ</p>
+ <p>다만 한 가지 단점은 자리가 많지 않아서 주말 저녁엔 웨이팅이 있을 수 있어. 나는 평일 낮이나 늦은 밤에 가는 걸 추천함. 아니면 미리 전화하고 가는 게 속 편해. 전화번호는 로 문의하면 돼. 사장님한테 형아가 보내서 왔다고 하면 소소한 혜택도 있을지도? ㅋㅋ</p>
 
-        <p>방화 쪽에 노래방 고민 있다면 이 글 하나면 끝. 앞으로도 계속 새로운 곳 가보고 후기 올릴 테니 블로그 자주 들러라. 궁금한 거 있으면 전화 or 댓글 남겨 줘. 형아가 다 알려줌.</p>
-    </article>
+ <p>방화 쪽에 노래방 고민 있다면 이 글 하나면 끝. 앞으로도 계속 새로운 곳 가보고 후기 올릴 테니 블로그 자주 들러라. 궁금한 거 있으면 전화 or 댓글 남겨 줘. 형아가 다 알려줌.</p>
+ </article>
 
-    <section class="dense-gap">
-        <h2>자주 묻는 질문</h2>
-        <div style="background:#222; border:2px solid #333; padding:1rem; margin-bottom:1rem;">
-            <h3 style="border:none; padding:0; margin:0 0 0.5rem 0; font-size:1rem;">Q. 방화역 근처에 혼자 가기 좋은 노래방 있어?</h3>
-            <p>응, 위에 소개한 "코인노래방 24시" 완전 추천. 1곡 단위로 결제 가능하고 부스도 작아서 혼자 부르기 딱이야. 방음도 좋아서 민망하지 않음.</p>
-        </div>
-        <div style="background:#222; border:2px solid #333; padding:1rem;">
-            <h3 style="border:none; padding:0; margin:0 0 0.5rem 0; font-size:1rem;">Q. 가격이 저렴한 곳 vs 시설 좋은 곳 중에 뭐가 나을까?</h3>
-            <p>개인적으로 가성비를 따지면 코인노래방이 낫고, 특별한 날이나 큰 방에서 놀고 싶으면 일반 노래방 가는 게 좋아. 방화에는 두 가지 다 있으니 상황에 맞게 골라. 궁금하면 전화 주면 상세히 알려줄게!</p>
-        </div>
-    </section>
+ <section class="dense-gap">
+ <h2>자주 묻는 질문</h2>
+ <div style="background:#222; border:2px solid #333; padding:1rem; margin-bottom:1rem;">
+ <h3 style="border:none; padding:0; margin:0 0 0.5rem 0; font-size:1rem;">Q. 방화역 근처에 혼자 가기 좋은 노래방 있어?</h3>
+ <p>응, 위에 소개한 "코인노래방 24시" 완전 추천. 1곡 단위로 결제 가능하고 부스도 작아서 혼자 부르기 딱이야. 방음도 좋아서 민망하지 않음.</p>
+ </div>
+ <div style="background:#222; border:2px solid #333; padding:1rem;">
+ <h3 style="border:none; padding:0; margin:0 0 0.5rem 0; font-size:1rem;">Q. 가격이 저렴한 곳 vs 시설 좋은 곳 중에 뭐가 나을까?</h3>
+ <p>개인적으로 가성비를 따지면 코인노래방이 낫고, 특별한 날이나 큰 방에서 놀고 싶으면 일반 노래방 가는 게 좋아. 방화에는 두 가지 다 있으니 상황에 맞게 골라. 궁금하면 전화 주면 상세히 알려줄게!</p>
+ </div>
+ </section>
 </main>
 
 <footer style="background:#0d0d0d; border-top:4px solid #f7d634; padding:1.5rem 1rem; text-align:center; color:#666; font-size:0.85rem;">
-    <p>방화 노래방 정보 – 형아가 직접 확인한 진짜 후기만 전합니다.</p>
-    <p>문의: <a href="tel:01062790862" style="color:#f7d634;">010-6279-0862</a></p>
-    <p style="margin-top:0.5rem;">© 방화 노래방 블로그. All rights reserved.</p>
+ <p>방화 노래방 정보 – 형아가 직접 확인한 진짜 후기만 전합니다.</p>
+ <p>문의: </p>
+ <p style="margin-top:0.5rem;">© 방화 노래방 블로그. All rights reserved.</p>
 </footer>
 
 <script>
-    // 간단한 햄버거 메뉴 토글 (데모용)
-    document.querySelector('.hamburger-menu').addEventListener('click', function() {
-        const nav = document.querySelector('nav');
-        nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
-    });
-    // 리사이즈 시 복원
-    window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
-            document.querySelector('nav').style.display = 'flex';
-        }
-    });
+ // 간단한 햄버거 메뉴 토글 (데모용)
+ document.querySelector('.hamburger-menu').addEventListener('click', function() {
+ const nav = document.querySelector('nav');
+ nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+ });
+ // 리사이즈 시 복원
+ window.addEventListener('resize', function() {
+ if (window.innerWidth > 768) {
+ document.querySelector('nav').style.display = 'flex';
+ }
+ });
 </script>
 
 </body>
